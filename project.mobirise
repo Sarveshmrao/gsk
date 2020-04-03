@@ -38,7 +38,7 @@
       ]
     },
     "versionFirst": "4.3.0",
-    "uniqCompNum": 125,
+    "uniqCompNum": 126,
     "versionPublish": "4.11.6",
     "path": "@PROJECT_PATH@",
     "siteFonts": [
@@ -606,6 +606,31 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "postToLoad": "6",
+            "facebookToken": "",
+            "facebook": "",
+            "twitter": "",
+            "youtube": "UCLQH4FS1H5cj1IBhy1UUT5Q",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-3h"
         },
         {
           "_styles": {
